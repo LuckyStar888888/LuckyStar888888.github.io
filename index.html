@@ -1,1 +1,82 @@
-<p>Hello 大家好</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data AI Engineer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #0f172a; color: #f1f5f9; }
+    .gradient-text { background: linear-gradient(to right, #14b8a6, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="antialiased">
+
+  <!-- Navbar -->
+  <header class="p-6 flex justify-between items-center">
+    <h1 class="text-2xl font-bold gradient-text">Data Engineer</h1>
+    <nav class="space-x-6">
+      <a href="#skills" class="hover:text-cyan-400">Skills</a>
+      <a href="#projects" class="hover:text-cyan-400">Projects</a>
+      <a href="#contact" class="hover:text-cyan-400">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center mt-20">
+    <h2 class="text-4xl md:text-5xl font-bold gradient-text">Hi, I'm Alex</h2>
+    <p class="mt-4 text-xl max-w-xl mx-auto text-slate-300">
+      Data & AI Engineer crafting intelligent solutions using modern cloud, machine learning, and scalable data systems.
+    </p>
+    <a href="#projects" class="mt-6 inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-xl shadow-lg transition">See My Work</a>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="mt-32 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-6">Skills</h3>
+    <div class="grid md:grid-cols-3 gap-6 text-center">
+      <div class="bg-slate-800 p-6 rounded-xl shadow-md">
+        <h4 class="font-bold text-cyan-400 mb-2">Data Engineering</h4>
+        <p>Airflow, BigQuery, Redshift, GCS, Spark, dbt</p>
+      </div>
+      <div class="bg-slate-800 p-6 rounded-xl shadow-md">
+        <h4 class="font-bold text-cyan-400 mb-2">Machine Learning</h4>
+        <p>TensorFlow, PyTorch, XGBoost, MLflow</p>
+      </div>
+      <div class="bg-slate-800 p-6 rounded-xl shadow-md">
+        <h4 class="font-bold text-cyan-400 mb-2">DevOps & Cloud</h4>
+        <p>Docker, Kubernetes, GCP, AWS, Terraform</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="mt-32 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-6">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-slate-900 p-5 rounded-xl border border-slate-700 shadow-lg">
+        <h4 class="text-xl font-semibold mb-2 text-cyan-300">Smart Ad Bidding Engine</h4>
+        <p>Built an ML pipeline predicting CTR/CVR for millions of impressions using Airflow, GCP & TensorFlow.</p>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-xl border border-slate-700 shadow-lg">
+        <h4 class="text-xl font-semibold mb-2 text-cyan-300">Real-Time Fraud Detection</h4>
+        <p>Deployed real-time anomaly detection system using Kafka, PySpark, and BigQuery streaming inserts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="mt-32 px-6 text-center">
+    <h3 class="text-3xl font-semibold mb-4">Get in Touch</h3>
+    <p class="text-slate-400 mb-6">Available for freelance, consulting, or full-time roles.</p>
+    <a href="mailto: email@example.com" class="inline-block bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl text-white shadow-lg">Email Me</a>
+  </section>
+
+  <footer class="mt-32 text-center text-slate-600 p-6 border-t border-slate-800">
+    © 2025 Alex • Built with 💻 and ☕
+  </footer>
+
+</body>
+</html>
